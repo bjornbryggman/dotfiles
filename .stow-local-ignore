@@ -1,0 +1,5 @@
+.stfolder
+.stow-local-ignore
+.git
+install.sh
+README.md

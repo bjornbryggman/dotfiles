@@ -1,8 +1,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 if not set -q ZELLIJ
-    and if status is-interactive
-        zellij attach; or zellij
+    zellij attach; or zellij
 end
 
 function lazygit
